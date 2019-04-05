@@ -55,7 +55,10 @@ class Student
   
   def self.new_from_db(row)
     student = Student.new(row[0], row[1], row[2])
+<<<<<<< HEAD
     
+=======
+>>>>>>> 9741f53fe44ced8678bafd6b2bc0b3ff9353f59e
   end 
   
  
